@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.wassimapp.a3dprinter.StoreActivity"
+    tools:showIn="@layout/app_bar_history">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:id="@+id/swipeContainer"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+
+        <com.wassimapp.a3dprinter.Models.CustomModels.RecyclerViewEmptySupport
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp">
+
+        </com.wassimapp.a3dprinter.Models.CustomModels.RecyclerViewEmptySupport>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+    <com.wassimapp.a3dprinter.customfonts.MyTextView
+        android:id="@+id/list_empty"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="No Models Found"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#54abee</color>
+    <color name="white">#fff</color>
+    <color name="backgroudcolor">#f6464d</color>
+    <color name="backgrounddark">#f0f0f0</color>
+    <color name="red">#ff5c56</color>
+    <color name="yello">#ffd860</color>
+    <color name="green">#88c057</color>
+    <color name="seekbarprogress">#f29193</color>
+    <color name="subtext">#bcbec2</color>
+    <color name="text">#1b2934</color>
+    <color name="colorWindowBackground">#333</color>
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>
+    <color name="background">#dddddd</color>
+</resources>

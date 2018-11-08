@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <com.wassimapp.a3dprinter.customfonts.MyTextView
+        android:layout_gravity="center"
+        android:text="Update Your Post"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.wassimapp.a3dprinter.customfonts.MyEditText
+        android:id="@+id/ed_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:inputType="textMultiLine" />
+
+
+
+
+
+</LinearLayout>

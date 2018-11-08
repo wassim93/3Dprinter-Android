@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wassimapp.a3dprinter.CommentActivity">
+
+
+    <com.wassimapp.a3dprinter.Models.CustomModels.RecyclerViewEmptySupport
+        android:id="@+id/comment_list"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/feed_item_margin"
+        android:layout_marginRight="@dimen/feed_item_margin"
+        android:layout_marginTop="@dimen/feed_item_margin"
+        android:layout_marginBottom="@dimen/feed_item_margin"
+        android:layout_height="match_parent">
+
+    </com.wassimapp.a3dprinter.Models.CustomModels.RecyclerViewEmptySupport>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_height="wrap_content">
+    <include layout="@layout/comment_box" />
+
+</LinearLayout>
+
+
+    <com.wassimapp.a3dprinter.customfonts.MyTextView
+        android:id="@+id/list_empty"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="No Comment Yet \n Start Conversation now"
+        />
+
+
+
+
+</RelativeLayout>
